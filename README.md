@@ -56,8 +56,8 @@ The goal of part 2 is to add controllers to the exercise implementing a cart fun
 
 ![Camera Shop Example Part 2](images/camera_example_part2.gif)
 
-1. Create two controllers, one to manage the cart, and one to manage the catalog of items.
-1. Remove all instances of `ng-init` and initialize any data into the controller. Ensure all `ng-model` variables are managed in a controller.
+1. Create components for your application, cart, and list of cameras
+1. Create bindings and events such that all data lives in the top most component.
 1. When the user clicks "Add to Cart", the cart manages the item inserted. Subsequent adds increase the quantity of the item.
 1. User can remove an item from the cart by clicking on a button (it will remove the entire quantity of that item).
 1. The subtotal, tax, and total are calculated in place.
