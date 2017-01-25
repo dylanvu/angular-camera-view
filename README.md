@@ -58,6 +58,6 @@ The goal of part 2 is to add controllers to the exercise implementing a cart fun
 
 1. Create components for your application, cart, and list of cameras
 1. Create bindings and events such that all data lives in the top most component.
-1. When the user clicks "Add to Cart", the cart manages the item inserted. Subsequent adds increase the quantity of the item.
+1. When the user clicks "Add to Cart", that item is added to the cart. Subsequent adds increase the quantity of the item.
 1. User can remove an item from the cart by clicking on a button (it will remove the entire quantity of that item).
 1. The subtotal, tax, and total are calculated in place.
