@@ -1,0 +1,17 @@
+{
+  "name": "angular-camera-view",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dylanvu/angular-camera-view.git",
+  "author": "Dylan Vu <dylan.n.vu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "dependencies": {
+    "angular": "1.6.0"
+  },
+  "scripts": {
+    "start": "lite-server"
+  }
+}
